@@ -9,15 +9,19 @@
 - Staging area: 커밋을 수행할 파일들이 올라가는 영역
 - Git directory: git 프로젝트의 메타 데이터와 데이터 정보가 저장되는 디렉토리
 
+
 ### push step
 working directory -> (git add) -> staging area -> (git commit) -> local directory -> (git push) -> remote repository
+
 
 ### pull step
 remote repository -> (git fetch) -> local directory -> (git merge) -> staging area, working directory 
 
+
 ### 깃 초반 설정
 git config --global user.name (name)
 git config --global user.email (email adress)
+
 
 ### 깃 주요 사용 방법 정리
 - repository, commit까지 하면 해당 폴더 내 .git 폴더에 저장된다.
@@ -54,6 +58,7 @@ int main (void)
 - https://blog.naver.com/rnwjdgus7
 - [SIGAZ BLOG](https://blog.naver.com/rnwjdgus7)
 
+
 ### 목록은 사칙연산중 덧셈,뺄셈,곱셈 기호를 통해 만들수 있다 
 - 최대 3개까지 사용 가능하다
 
@@ -63,9 +68,11 @@ int main (void)
 ***목록 1)
 ***목록 2)
 
+
 ### 구분선
 - 구분선은 뺄셈 선을 길게 넣으면 자동으로 인식한다
 -----------
+
 
 ### 인용구문
 - 인용 구문은 '>(구문) - (사용자)'를 통해 만들 수 있다.
@@ -79,9 +86,11 @@ int main (void)
 값1|값2|값3
 ---|---|---
 
+
 ### 볼드(굵게)체 
 - 별 두개를 열고 닫아 사용할 수 있다. 
 **볼드체**
+
 
 ### 취소선
 - 취소선은 물결표(~) 두개를 열고 닫아 사용할 수 있다.
