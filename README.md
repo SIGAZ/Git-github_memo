@@ -1,6 +1,5 @@
-# Git-github_memo
-## 깃 관련 메모
-### 깃 주요 용어 간략 정리
+# Git-github_memo (깃 관련 메모)
+## 깃 주요 용어 간략 정리
 
 - 사용 컴퓨터 - Local repository
 - 깃허브 - Remote repository
@@ -10,20 +9,20 @@
 - Git directory: git 프로젝트의 메타 데이터와 데이터 정보가 저장되는 디렉토리
 
 
-### push step
+## push step
 working directory -> (git add) -> staging area -> (git commit) -> local directory -> (git push) -> remote repository
 
 
-### pull step
+## pull step
 remote repository -> (git fetch) -> local directory -> (git merge) -> staging area, working directory 
 
 
-### 깃 초반 설정
+## 깃 초반 설정
 git config --global user.name (name)
 git config --global user.email (email adress)
 
 
-### 깃 주요 사용 방법 정리
+## 깃 주요 사용 방법 정리
 - repository, commit까지 하면 해당 폴더 내 .git 폴더에 저장된다.
 - push 전까지는 전부 local에만 반영
 
@@ -40,7 +39,7 @@ git config --global user.email (email adress)
 - 내용을 수정한 다음에 merge해주면 완료
 
 
-### Readme에서 소스코드 작성
+## Readme에서 소스코드 작성
 - 소스코드는 물결표인 ` `를 3개 넣어 열고 닫으면 된다. 
 - 3개를 넣은 뒤에 해당언어 키워드를 넣어 IDE 소드코드처럼 만들 수 있다.
 
@@ -54,12 +53,12 @@ int main (void)
 }
 ```
 
-### 링크는 ()로 사용할수 있으며, 하이퍼링크는 []로 사용할 수 있다.
+## 링크는 ()로 사용할수 있으며, 하이퍼링크는 []로 사용할 수 있다.
 - https://blog.naver.com/rnwjdgus7
 - [SIGAZ BLOG](https://blog.naver.com/rnwjdgus7)
 
 
-### 목록은 사칙연산중 덧셈,뺄셈,곱셈 기호를 통해 만들수 있다 
+## 목록은 사칙연산중 덧셈,뺄셈,곱셈 기호를 통해 만들수 있다 
 - 최대 3개까지 사용 가능하다
 
 *목록
@@ -69,17 +68,17 @@ int main (void)
 ***목록 2)
 
 
-### 구분선
+## 구분선
 - 구분선은 뺄셈 선을 길게 넣으면 자동으로 인식한다
 -----------
 
 
-### 인용구문
+## 인용구문
 - 인용 구문은 '>(구문) - (사용자)'를 통해 만들 수 있다.
 > "깃허브 사용은 프로그래머를 진화시키는 행동이다. - SIGAZ
 
 
-### 테이블
+## 테이블
 - 테이블은 Shift + \(원화)인 | 를 통해 만들 수 있다
 
 테이블1|테이블2|테이블3
@@ -87,14 +86,15 @@ int main (void)
 ---|---|---
 
 
-### 볼드(굵게)체 
+## 볼드(굵게)체 
 - 별 두개를 열고 닫아 사용할 수 있다. 
 **볼드체**
 
 
-### 취소선
+## 취소선
 - 취소선은 물결표(~) 두개를 열고 닫아 사용할 수 있다.
 ~~저는 HTML로 프로그래밍 해요~~ HTML은 프로그래밍 언어가 아닙니다
 
 
-레퍼런스 링크: https://gist.github.com/ihoneymon/652be052a0727ad59601
+## 레퍼런스 링크
+https://gist.github.com/ihoneymon/652be052a0727ad59601
