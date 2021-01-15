@@ -1,4 +1,4 @@
-# Git-github_memo
+## Git-github_memo
 깃 관련 메모
 
 사용 컴퓨터 - Local repository
