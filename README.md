@@ -11,11 +11,11 @@
 
 ### push step
 - working directory 
-- ↓ (git add)
+ ↓ (git add)
 - staging area
-- ↓ (git commit)
+ ↓ (git commit)
 - local directory
-- ↓ (git push)
+ ↓ (git push)
 - remote repository
 
 ### pull step
