@@ -62,7 +62,7 @@ int main (void)
 
 ### 링크는 ()로 사용할수 있으며, 하이퍼링크는 []로 사용할 수 있다.
 https://blog.naver.com/rnwjdgus7
-[SIGAZ BLOG]https://blog.naver.com/rnwjdgus7
+[SIGAZ BLOG](https://blog.naver.com/rnwjdgus7)
 
 ### 목록은 사칙연산중 덧셈,뺄셈,곱셈 기호를 통해 만들수 있다 
 - 최대 3개까지 사용 가능하다
