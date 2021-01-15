@@ -48,7 +48,7 @@
 
 ### Readme에서 소스코드는 "'''(해당언어)" 키워드로 만들 수 있다.
 
-'''(c)
+'''c
 #inlcude <stdio.h>
 
 int main (void)
