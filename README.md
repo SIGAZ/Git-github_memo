@@ -2,32 +2,32 @@
 ## 깃 관련 메모
 ### 깃 주요 용어 간략 정리
 
-- 사용 컴퓨터 - Local repository
-- 깃허브 - Remote repository
+사용 컴퓨터 - Local repository
+깃허브 - Remote repository
 
 - Working directory: 작업할 파일이 있는 디렉토리
 - Staging area: 커밋을 수행할 파일들이 올라가는 영역
 - Git directory: git 프로젝트의 메타 데이터와 데이터 정보가 저장되는 디렉토리
 
 ### push step
-- working directory 
-- ↓ (git add)
-- staging area
-- ↓ (git commit)
-- local directory
-- ↓ (git push)
-- remote repository
+working directory 
+↓ (git add)
+staging area
+↓ (git commit)
+local directory
+↓ (git push)
+remote repository
 
 ### pull step
-- remote repository
-- ↓ (git fetch)
-- local directory
-- ↓ (git merge)
-- staging area, working directory 
+remote repository
+↓ (git fetch)
+local directory
+↓ (git merge)
+staging area, working directory 
 
 ### 깃 초반 설정
-- git config --global user.name (name)
-- git config --global user.email (email adress)
+git config --global user.name (name)
+git config --global user.email (email adress)
 
 ### 깃 주요 사용 방법 정리
 - repository, commit까지 하면 해당 폴더 내 .git 폴더에 저장된다.
@@ -62,7 +62,7 @@ int main (void)
 
 ### 링크는 ()로 사용할수 있으며, 하이퍼링크는 []로 사용할 수 있다.
 https://blog.naver.com/rnwjdgus7
-[SIGAZ BLOG] https://blog.naver.com/rnwjdgus7
+[SIGAZ BLOG]https://blog.naver.com/rnwjdgus7
 
 ### 목록은 사칙연산중 덧셈,뺄셈,곱셈 기호를 통해 만들수 있다 
 - 최대 3개까지 사용 가능하다
@@ -98,5 +98,4 @@ https://blog.naver.com/rnwjdgus7
 ~~저는 HTML로 프로그래밍 해요~~ HTML은 프로그래밍 언어가 아닙니다
 
 
-레퍼런스 링크
-https://gist.github.com/ihoneymon/652be052a0727ad59601
+레퍼런스 링크: https://gist.github.com/ihoneymon/652be052a0727ad59601
