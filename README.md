@@ -2,32 +2,32 @@
 ## 깃 관련 메모
 ### 깃 주요 용어 간략 정리
 
-사용 컴퓨터 - Local repository
-깃허브 - Remote repository
+- 사용 컴퓨터 - Local repository
+- 깃허브 - Remote repository
 
-Working directory: 작업할 파일이 있는 디렉토리
-Staging area: 커밋을 수행할 파일들이 올라가는 영역
-Git directory: git 프로젝트의 메타 데이터와 데이터 정보가 저장되는 디렉토리
+- Working directory: 작업할 파일이 있는 디렉토리
+- Staging area: 커밋을 수행할 파일들이 올라가는 영역
+- Git directory: git 프로젝트의 메타 데이터와 데이터 정보가 저장되는 디렉토리
 
 ### push step
-working directory 
-↓ (git add)
-staging area
-↓ (git commit)
-local directory
-↓ (git push)
-remote repository
+- working directory 
+- ↓ (git add)
+- staging area
+- ↓ (git commit)
+- local directory
+- ↓ (git push)
+- remote repository
 
 ### pull step
-remote repository
-↓ (git fetch)
-local directory
-↓ (git merge)
-staging area, working directory 
+- remote repository
+- ↓ (git fetch)
+- local directory
+- ↓ (git merge)
+- staging area, working directory 
 
 ### 깃 초반 설정
-git config --global user.name (name)
-git config --global user.email (email adress)
+- git config --global user.name (name)
+- git config --global user.email (email adress)
 
 ### 깃 주요 사용 방법 정리
 - repository, commit까지 하면 해당 폴더 내 .git 폴더에 저장된다.
