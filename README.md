@@ -2,8 +2,8 @@
 ## 깃 관련 메모
 ### 깃 주요 용어 간략 정리
 
-사용 컴퓨터 - Local repository
-깃허브 - Remote repository
+- 사용 컴퓨터 - Local repository
+- 깃허브 - Remote repository
 
 - Working directory: 작업할 파일이 있는 디렉토리
 - Staging area: 커밋을 수행할 파일들이 올라가는 영역
