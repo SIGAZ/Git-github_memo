@@ -18,8 +18,8 @@ remote repository -> (git fetch) -> local directory -> (git merge) -> staging ar
 
 
 ## 깃 초반 설정
-git config --global user.name (name)
-git config --global user.email (email adress)
+- git config --global user.name (name)
+- git config --global user.email (email adress)
 
 
 ## 깃 주요 사용 방법 정리
@@ -40,7 +40,7 @@ git config --global user.email (email adress)
 
 
 ## Readme에서 소스코드 작성
-- 소스코드는 물결표인 ` `를 3개 넣어 열고 닫으면 된다. 
+- 소스코드는 ESC 아래 키의 물결표에 있는 '를 3개 넣어 열고 닫으면 된다. 
 - 3개를 넣은 뒤에 해당언어 키워드를 넣어 IDE 소드코드처럼 만들 수 있다.
 
 ``` C
